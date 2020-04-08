@@ -1,0 +1,212 @@
+/*
+	Master Stylesheet
+	===========================
+	Template Name:Rafiul
+	Author:Rafiul
+	Author Url:http://www.rafiulsarker.com/portfolio
+	Descriptions:PSD TO HTML Practice
+	Version:1.0.0
+	Tag:Blog website
+*/
+/*
+		Table of Content
+	===========================
+	1.Typrography:
+	2.Heading:
+	3.
+	4.
+	5.
+	6.
+font-family: 'Playfair Display', serif;
+font-family: 'Inconsolata', monospace;
+*/
+/*
+===========================
+Typrography
+===========================*/
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Playfair+Display:400,400i,900&display=swap');
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Playfair Display', serif;
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: 14px;
+	color: #626262;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 35px;
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+/*
+===========================
+		Header
+===========================*/
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;	
+}
+.logo{
+	width: 10%;
+
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+
+}
+.menu ul {
+	text-align: right;
+	margin: 0;
+}
+.menu ul li {
+	display: inline-block;
+}
+.menu ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #626262;
+	padding: 0 60px;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #000000;
+	transition: .4 all ease-in-out;
+}
+.banner{
+	background-image: url(../img/image.png);
+	background-size: cover;
+	background-position: center center;
+	height: 581px;
+	background-repeat: no-repeat;
+	margin-top: 40px;
+}
+/*========================Content=====================*/
+#blog{
+	width: 80%;
+	margin: 0 auto;
+}
+.blogs{
+	margin: 100px 0 0;
+}
+.catagories p{
+	font-family: 'Ubuntu',sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 20px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.title{
+	padding:30px 0;
+}
+.content{
+	line-height: 24px;
+	padding-bottom: 50px;
+}
+
+.blog-part{
+	display: flex;
+	justify-content: space-between;
+	padding: 80px 0 0;
+}
+.lifestyle,.photodiary{
+	width:47%; 
+}
+.blog-img img{
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+
+/*========================Newslatter=====================*/
+#newslatter{
+	background-color: #f0f0f0;
+	height: 400px;
+	padding: 70px 0;
+	margin: 0 auto;
+}
+.newslatter{
+	text-align: center;
+}
+input[type=email]{
+	border: none;
+	background-color: transparent;
+	margin-top: 20px;
+	padding: 15px 0;
+}
+input[type=email]:focus{
+	outline: none;
+}
+input[type=email]::placeholder{
+	color: red;
+	font-size: 14px;
+	color: #626262;
+}
+#button{
+	text-align: center;
+	padding: 100px 0;
+}
+.button button{
+	border: 1px solid #626262;
+	background-color: transparent;
+	font-size: 20px;
+	text-transform: capitalize;
+	padding: 10px;
+}
+#blank{
+	height: 700px;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	text-align: right;
+	
+}
+.term ul {
+
+}
+.term li, .social li{
+	display: inline-flex;
+}
+.term ul li a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
